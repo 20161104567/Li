@@ -9,40 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet var Show: UIView!
+    
+    @IBOutlet weak var show: UITextField!
     @IBAction func One1(_ sender: Any) {
+        show.text = show.text! + "1"
     }
     @IBAction func Two2(_ sender: Any) {
+        show.text = show.text! + "2"
     }
     @IBAction func Three3(_ sender: Any) {
+        show.text = show.text! + "3"
     }
     @IBAction func Four4(_ sender: Any) {
+        show.text = show.text! + "4"
     }
-    @IBAction func Five5(_ sender: Any) {
-    }
-    @IBAction func Six6(_ sender: Any) {
-    }
-    @IBAction func Seven7(_ sender: Any) {
-    }
-    @IBAction func Eight8(_ sender: Any) {
-    }
-    @IBAction func Nine9(_ sender: Any) {
-    }
-    @IBAction func Zieo0(_ sender: Any) {
-    }
-    @IBAction func Add(_ sender: Any) {
-    }
-    @IBAction func Reduction(_ sender: Any) {
-    }
-    @IBAction func Take(_ sender: Any) {
-    }
-    @IBAction func Addition(_ sender: Any) {
-    }
-    @IBAction func Equal(_ sender: Any) {
-    }
-    @IBAction func Delete(_ sender: Any) {
-    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

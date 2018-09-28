@@ -29,7 +29,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="1"/>
                                 <connections>
-                                    <action selector="One1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aKG-iz-L1F"/>
+                                    <action selector="One1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8NR-nF-olN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCg-Ol-gR7">
@@ -37,8 +37,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="2"/>
                                 <connections>
-                                    <action selector="Two2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="86U-Kh-7gi"/>
-                                    <action selector="Two:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eYP-u6-tdg"/>
+                                    <action selector="Two2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jqv-TH-1qN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Xj-p9-icC">
@@ -46,7 +45,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="3"/>
                                 <connections>
-                                    <action selector="Three3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zpB-vJ-ufd"/>
+                                    <action selector="Three3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cfI-ex-d03"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGL-CM-uvV">
@@ -54,7 +53,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="4"/>
                                 <connections>
-                                    <action selector="Four4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sfN-Mp-Mop"/>
+                                    <action selector="Four4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mzv-5L-v4z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yWc-bU-JIK">
@@ -87,7 +86,6 @@
                                 <state key="normal" title="8"/>
                                 <connections>
                                     <action selector="Eight8:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cZJ-1o-P3k"/>
-                                    <action selector="Seven7:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FLp-NT-nS0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YhX-qP-Vgf">
@@ -112,7 +110,6 @@
                                 <state key="normal" title="+"/>
                                 <connections>
                                     <action selector="Add:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fcd-cV-zc5"/>
-                                    <action selector="Zieo0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4K5-Oj-ko0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyc-tg-aJR">
@@ -160,7 +157,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="Show" destination="8bC-Xf-vdC" id="m3T-sn-WeQ"/>
+                        <outlet property="show" destination="uq4-eJ-Gky" id="pHw-1X-01n"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
