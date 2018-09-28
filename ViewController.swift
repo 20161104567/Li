@@ -23,6 +23,24 @@ class ViewController: UIViewController {
     @IBAction func Four4(_ sender: Any) {
         show.text = show.text! + "4"
     }
+    @IBAction func Five5(_ sender: Any) {
+        show.text = show.text! + "5"
+    }
+    @IBAction func Six6(_ sender: Any) {
+        show.text = show.text! + "6"
+    }
+    @IBAction func Seven7(_ sender: Any) {
+        show.text = show.text! + "7"
+    }
+    @IBAction func Eight8(_ sender: Any) {
+        show.text = show.text! + "8"
+    }
+    @IBAction func Nine9(_ sender: Any) {
+        show.text = show.text! + "9"
+    }
+    @IBAction func Zieo0(_ sender: Any) {
+        show.text = show.text! + "0"
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
