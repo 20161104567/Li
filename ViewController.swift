@@ -9,8 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+    var number = 0
+    var a = 0
+    var b = 0
+    var c = 0
     @IBOutlet weak var show: UITextField!
+    @IBOutlet weak var show1: UITextField!
+    @IBOutlet weak var show2: UITextField!
     @IBAction func One1(_ sender: Any) {
         show.text = show.text! + "1"
     }
@@ -40,6 +45,71 @@ class ViewController: UIViewController {
     }
     @IBAction func Zieo0(_ sender: Any) {
         show.text = show.text! + "0"
+    }
+    @IBAction func add(_ sender: Any) {
+        if show.text == ""{
+            show.text = "0"
+            number = 1
+        }else{
+            a = Int(show.text!)!
+            show1.text = String(a)
+            show.text = ""
+            number = 1
+        }
+    }
+    @IBAction func Reduction(_ sender: Any) {
+        if show.text == ""{
+            show.text = "0"
+            number = 2
+        }else{
+            a = Int(show.text!)!
+            show1.text = String(a)
+            show.text = ""
+            number = 2
+        }
+    }
+    @IBAction func Take(_ sender: Any) {
+        if show.text == ""{
+            show.text = "0"
+            number = 3
+        }else{
+            a = Int(show.text!)!
+            show1.text = String(a)
+            show.text = ""
+            number = 3
+        }
+    }
+    @IBAction func Addition(_ sender: Any) {
+        if show.text == ""{
+            show.text = "0"
+            number = 4
+        }else{
+            a = Int(show.text!)!
+            show1.text = String(a)
+            show.text = ""
+            number = 4
+        }
+    }
+    @IBAction func equal(_ sender: Any) {
+        b = Int(show.text!)!
+        show2.text = String(b)
+        show.text = "0"
+        if number == 1{
+            c = a + b
+        }else if number == 2{
+            c = a - b
+        }else if number == 3{
+            c = a * b
+        }else if number == 4{
+            c = a / b
+        }
+        
+        show.text = String(c)
+    }
+    @IBAction func Delete(_ sender: Any) {
+        show.text = ""
+        show1.text = ""
+        show2.text = ""
     }
     
     override func viewDidLoad() {
